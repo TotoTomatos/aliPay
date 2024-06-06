@@ -1,0 +1,95 @@
+# .gitignore
+
+### SpringBoot项目忽略规则 ###
+# 编译类文件
+target/
+*.class
+
+# IDE 配置文件
+*.iws
+*.iml
+.idea/
+*.idea/*
+
+# 编辑器备份文件
+*~.nib
+*.swp
+.DS_Store
+
+# 构建工具文件
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
+
+# Log files
+*.log
+
+# 运行时产生的临时文件
+*.tmp
+*.temp
+
+# 运行时的配置文件
+application.properties
+application.yml
+
+# 忽略IDEA的 SonarQube 插件生成的文件
+sonar-project.properties
+
+# 忽略Spring Boot的actuator自动生成的健康检查端点HTML报告
+target/actuator-reports/
+
+### Vue项目忽略规则 ###
+# 依赖模块
+node_modules/
+
+# 编译文件
+dist/
+*.log
+*.map
+
+# 编辑器和IDE的配置文件
+.vscode/
+.idea/
+
+# 客户端IDE的本地配置文件
+*.suo
+*.ntvs*
+*.njsproj
+*.vssscc
+.c9/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# 编译缓存
+*.d.ts
+
+# 运行时的配置文件
+.env
+.env.local
+.env.*.local
+
+# 依赖锁定文件
+yarn.lock
+package-lock.json
+
+# 客户端IDE的临时文件
+*.log
+tmp/
+temp/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# 其他
+.*cache
+Thumbs.db
